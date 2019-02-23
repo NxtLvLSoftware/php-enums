@@ -18,3 +18,7 @@ vendor/*
 
 # PHPUnit
 .phpunit.result.cache
+
+#Project
+cache/
+enum_ide_helper.php

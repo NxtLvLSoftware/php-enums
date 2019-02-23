@@ -9,8 +9,13 @@
             "email": "daswaggamer@gmail.com"
         }
     ],
+    "require": {
+        "symfony/console": "^4.2"
+    },
     "require-dev": {
-        "phpunit/phpunit": "^8"
+        "phpunit/phpunit": "^8",
+        "nikic/php-parser": "^4.2",
+        "illuminate/view": "^5.7"
     },
     "autoload": {
         "psr-4": {
@@ -19,9 +24,13 @@
     },
     "autoload-dev": {
         "psr-4": {
+            "nxtlvlsoftware\\generator\\enums\\": "generator",
             "nxtlvlsoftware\\tests\\enums\\": "tests"
         }
     },
+    "bin": [
+        "enums"
+    ],
     "suggest": {
         "nxtlvlsoftware/static-constructors": "Specify enums in the static constructor to use objects as enum values."
     },
