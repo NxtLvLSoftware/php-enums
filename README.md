@@ -65,7 +65,7 @@ project which has this package as a dependency will link the script into the pro
 
 You will have to define at least one directory to scan and the location and filename of the stubs:
 ```bash
-$ php vendor/bin/enums --dir /Users/Jack/Projects/MyProject/src --dir /Users/Jack/Projects/MyProject/vendor --out /Users/Jack/Projects/MyProject/enum_stubs.php
+$ php vendor/bin/enums generate --dir /Users/Jack/Projects/MyProject/src --dir /Users/Jack/Projects/MyProject/vendor --out /Users/Jack/Projects/MyProject/enum_stubs.php
 ```
 
 This command will scan the source directory of the project and all of it's installed composer dependencies and generate
